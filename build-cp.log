@@ -1,0 +1,79 @@
+pio_mutex: warte auf fm1-to-cardputer seit 17:17:20 (pid 176585)
+pio_mutex: warte auf fm1-to-cardputer seit 17:17:20 (pid 176585)
+pio_mutex: warte auf fm1-to-cardputer seit 17:17:20 (pid 176585)
+pio_mutex: warte auf fm1-to-cardputer seit 17:17:20 (pid 176585)
+pio_mutex: warte auf fm1-to-cardputer seit 17:17:20 (pid 176585)
+pio_mutex: warte auf fm1-to-cardputer seit 17:17:20 (pid 176585)
+pio_mutex: warte auf fm1-to-cardputer seit 17:17:20 (pid 176585)
+pio_mutex: warte auf fm1-to-cardputer seit 17:17:20 (pid 176585)
+pio_mutex: warte auf fm1-to-cardputer seit 17:17:20 (pid 176585)
+pio_mutex: warte auf fm1-to-cardputer seit 17:17:20 (pid 176585)
+pio_mutex: warte auf fm1-to-cardputer seit 17:17:20 (pid 176585)
+pio_mutex: warte auf fm1-to-cardputer seit 17:17:20 (pid 176585)
+pio_mutex: warte auf fm1-to-cardputer seit 17:17:20 (pid 176585)
+pio_mutex: warte auf fm1-to-cardputer seit 17:17:20 (pid 176585)
+pio_mutex: warte auf fm1-to-cardputer seit 17:17:20 (pid 176585)
+pio_mutex: warte auf fm1-to-cardputer seit 17:17:20 (pid 176585)
+pio_mutex: warte auf fm1-to-cardputer seit 17:17:20 (pid 176585)
+pio_mutex: warte auf fm1-to-cardputer seit 17:17:20 (pid 176585)
+pio_mutex: warte auf fm1-to-cardputer seit 17:17:20 (pid 176585)
+Processing cardputer (platform: https://github.com/pioarduino/platform-espressif32/releases/download/55.03.39/platform-espressif32.zip; board: m5stack-stamps3; framework: arduino)
+--------------------------------------------------------------------------------
+Verbose mode can be enabled via `-v, --verbose` option
+CONFIGURATION: https://docs.platformio.org/page/boards/espressif32/m5stack-stamps3.html
+PLATFORM: Espressif 32 (55.3.39) > M5Stack StampS3
+HARDWARE: ESP32S3 240MHz, 320KB RAM, 8MB Flash
+DEBUG: Current (cmsis-dap) External (cmsis-dap, esp-bridge, esp-builtin, esp-prog, esp-prog-2, iot-bus-jtag, jlink, minimodule, olimex-arm-usb-ocd, olimex-arm-usb-ocd-h, olimex-arm-usb-tiny-h, olimex-jtag-tiny, tumpa)
+PACKAGES: 
+ - contrib-piohome @ 3.4.4 
+ - framework-arduinoespressif32 @ 3.3.9 
+ - framework-arduinoespressif32-libs @ 5.5.4+sha.735507283d 
+ - tool-esptoolpy @ 5.3.0 
+ - tool-xtensa-esp-elf-gdb @ 17.1.0+20260402 
+ - toolchain-xtensa-esp-elf @ 14.2.0+20260121
+*** Reinstall Arduino framework ***
+Tool Manager: Installing https://github.com/espressif/arduino-esp32/releases/download/3.3.9/esp32-core-3.3.9.tar.xz
+Unpacking 0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Tool Manager: framework-arduinoespressif32@3.3.9 has been installed!
+Tool Manager: Installing https://github.com/espressif/arduino-esp32/releases/download/3.3.9/esp32-core-3.3.9-libs.tar.xz
+Unpacking 0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Tool Manager: framework-arduinoespressif32-libs@5.5.4+sha.735507283d has been installed!
+*** WARNING: Windows Long Path Support is disabled ***
+*** Enable it for better performance: ***
+*** 1. Run as Administrator: gpedit.msc ***
+*** 2. Navigate to: Computer Configuration > Administrative Templates > System > Filesystem ***
+*** 3. Enable 'Enable Win32 long paths' ***
+*** OR run PowerShell as Admin: ***
+*** New-ItemProperty -Path 'HKLM:\SYSTEM\CurrentControlSet\Control\FileSystem' -Name 'LongPathsEnabled' -Value 1 -PropertyType DWORD -Force ***
+*** Restart required after enabling ***
+LDF: Library Dependency Finder -> https://bit.ly/configure-pio-ldf
+LDF Modes: Finder ~ chain, Compatibility ~ soft
+Found 49 compatible libraries
+Scanning dependencies...
+Dependency Graph
+|-- M5Cardputer @ 1.1.1
+|-- mvave_cardputer @ 0.1.0
+Building in release mode
+Compiling .pio\build\cardputer\src\plat_cardputer.c.o
+Linking .pio\build\cardputer\firmware.elf
+Firmware metrics can not be shown. Set the terminal codepage to "utf-8" or "cp65001" on Windows.
+Retrieving maximum program size .pio\build\cardputer\firmware.elf
+Checking size .pio\build\cardputer\firmware.elf
+Advanced Memory Usage is available via "PlatformIO Home > Project Inspect"
+RAM:   [========  ]  79.0% (used 258964 bytes from 327680 bytes)
+Flash: [==        ]  21.8% (used 727259 bytes from 3342336 bytes)
+Building .pio\build\cardputer\firmware.bin
+esptool v5.3.0
+Creating ESP32-S3 image...
+Merged 2 ELF sections.
+Successfully created ESP32-S3 image.
+Creating binary "firmware.factory.bin" with:
+    Offset   | File
+ -  0x0000   | bootloader.bin
+ -  0x8000   | partitions.bin
+ -  0xe000   | boot_app0.bin
+ -  0x10000  | firmware.bin
+Successfully created combined binary image.
+copy_bin([".pio\build\cardputer\firmware.bin"], [".pio\build\cardputer\firmware.elf"])
+fomni-cardputer.bin updated
+======================== [SUCCESS] Took 303.66 seconds ========================
